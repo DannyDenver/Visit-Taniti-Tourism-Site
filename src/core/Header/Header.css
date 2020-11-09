@@ -1,0 +1,14 @@
+.taniti-logo {
+    display: inline-block;
+}
+
+.main-nav {
+    font-size: 30px;
+    padding-top: 1rem;
+    background: url("../../assets/beach.jpg");
+    background-position-y: bottom;
+}
+
+.utility-nav {
+    background-color:rgb(245, 245, 245);
+}

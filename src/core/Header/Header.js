@@ -24,7 +24,7 @@ class Header extends Component {
           </NavbarBrand>
           <Nav className="mr-auto" navbar>
             <NavItem className="d-flex align-items-center">
-              <NavLink className="font-weight-bold" href="https://www.techiediaries.com/react-bootstrap">
+              <NavLink className="font-weight-bold" href="/culture">
                 Culture
               </NavLink>
             </NavItem>

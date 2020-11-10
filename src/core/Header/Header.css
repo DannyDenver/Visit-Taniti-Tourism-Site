@@ -3,12 +3,35 @@
 }
 
 .main-nav {
-    font-size: 30px;
-    padding-top: 1rem;
-    background: url("../../assets/beach.jpg");
-    background-position-y: bottom;
+    font-size:1.5rem;
+    background-position-y: 41%;
 }
 
-.utility-nav {
-    background-color:rgb(245, 245, 245);
+.main-nav .navbar-brand {
+    font-size: 3.25rem !important; 
 }
+
+nav.navbar {
+    padding:0rem 1rem;
+}
+
+.utility-bar {
+    background-color: #ebebeb
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin: 1rem 2rem;
+    color: #000643 !important;
+  }
+
+  .utility-bar a {
+    cursor: grab;
+      color: #ec008c !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link:hover,
+   .utility-bar a:hover,
+   .main-nav .navbar-brand:hover {
+    text-decoration: underline #ec008c;
+    cursor: pointer;
+  }

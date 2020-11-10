@@ -1,0 +1,30 @@
+
+.mainImageContainer {
+    position: relative;
+    text-align: center;
+    color: black;
+    max-height: 610px;
+    overflow: hidden;
+    max-width: auto;
+  }
+
+.centered {
+    position: absolute;
+    font-size: 3rem;
+    top: 21%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .main-image-subtitle {
+    position: absolute;
+    font-style: italic;
+    font-size: 1.5rem;
+    top: 26%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .homescreenPicture {
+    transform: scaleX(-1);
+  }

@@ -11,34 +11,16 @@ class Header extends Component {
   render() {
     return (
       <Fragment>
-        <Navbar className="navbar p-0 ml-1 mr-1 utility-nav" expand="md">
-          <Nav className="ml-auto" navbar>
-            <NavItem className="d-flex align-items-center">
-              <NavLink className="mr-1" href="https://www.techiediaries.com/react-bootstrap">
-              <medium>About the Island</medium> 
-              
-          </NavLink> |
-            </NavItem>
-            <NavItem className="d-flex align-items-center">
+      <div className="d-flex flex-row justify-content-center utility-bar">
+      <a className="d-flex">Speak with a Booking Agent Today! </a>
+      <div className="d-flex ml-3">84° ☀️</div>
 
-              <NavLink className="ml-1 mr-1" href="https://www.techiediaries.com/react-bootstrap">
-                <medium>Transportation</medium> 
-        </NavLink> |
-            </NavItem>
-            <NavItem className="d-flex align-items-center">
-              <NavLink className="ml-1" href="https://www.techiediaries.com/react-bootstrap">
-                <medium>FAQ</medium> 
-      </NavLink>
-            </NavItem>
-          </Nav>
-        </Navbar>
+    </div>
 
-        <Navbar className="navbar navbar-light bg-light main-nav pt-6" color="faded" light expand="md">
-          <NavbarBrand >
-            <a className="navbar-brand font-weight-bold" href="./" >
-              <img width="30" height="30" className="d-inline-block align-top mr-2 ml-2" alt="logo" src={beachIcon} />
+        <Navbar className="navbar navbar-light bg-light main-nav pt-6 align-items-center" color="faded" light expand="md">
+          <NavbarBrand className="navbar-brand font-weight-bold" href="./">
+              <img width="34" height="34" className="d-inline-block mr-2 ml-2" alt="logo" src={beachIcon} />
               Taniti
-          </a>
           </NavbarBrand>
           <Nav className="mr-auto" navbar>
             <NavItem className="d-flex align-items-center">
@@ -81,3 +63,31 @@ class Header extends Component {
 }
 
 export default Header;
+
+
+
+// <Navbar className="navbar p-0 ml-1 mr-1 utility-nav" expand="md">
+// <Nav className="justify-center" navbar>
+// <NavItem className="d-flex align-items-center">
+// <NavLink className="mr-1" href="https://www.techiediaries.com/react-bootstrap">
+// Speak with a Booking Agent Today!
+// </NavLink>
+// </NavItem>
+//   <NavItem className="d-flex align-items-center">
+//     <NavLink className="mr-1" href="https://www.techiediaries.com/react-bootstrap">
+//     
+// </NavLink>
+//   </NavItem>
+// </Nav>
+// </Navbar>
+
+// <NavItem className="d-flex align-items-center">
+// <NavLink className="ml-1 mr-1" href="https://www.techiediaries.com/react-bootstrap">
+//   Transportation
+// </NavLink> |
+// </NavItem>
+// <NavItem className="d-flex align-items-center">
+// <NavLink className="ml-1" href="https://www.techiediaries.com/react-bootstrap">
+//   FAQ
+// </NavLink>
+// </NavItem>

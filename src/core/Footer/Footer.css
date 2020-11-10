@@ -1,0 +1,24 @@
+.footer {
+    background-color:#000643 !important;
+}
+
+.footer .table {
+    color: white;
+}
+
+tr {
+    border-top: none;
+}
+
+.footer .table th, .footer .table td, .footer .table th {
+    border-top: none;
+}
+
+.footer a {
+    cursor: grab;
+    color: white !important;
+}
+
+.footer a:hover {
+    text-decoration: underline #ec008c;
+}

@@ -17,6 +17,5 @@ export default function HomePage(props) {
       >
       </ThreeImages>
         </Fragment>
-
     );
   }

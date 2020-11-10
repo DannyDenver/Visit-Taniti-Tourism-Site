@@ -29,32 +29,30 @@ class Header extends Component {
               </NavLink>
             </NavItem>
             <NavItem className="d-flex align-items-center">
-              <NavLink className="font-weight-bold" href="https://www.techiediaries.com/react-bootstrap">
-                Adventures
+              <NavLink className="font-weight-bold" href="/adventure">
+                Adventure
             </NavLink>
             </NavItem>
             <NavItem className="d-flex align-items-center">
-              <NavLink className="font-weight-bold" href="https://www.techiediaries.com/react-bootstrap">
+              <NavLink className="font-weight-bold" href="/cuisine">
                 Cuisine
           </NavLink>
             </NavItem>
             <NavItem className="d-flex align-items-center">
-              <NavLink className="font-weight-bold" href="https://www.techiediaries.com/react-bootstrap">
+              <NavLink className="font-weight-bold" href="/lodging">
                 Lodging
         </NavLink>
             </NavItem>
             <NavItem className="d-flex align-items-center">
-              <NavLink className="font-weight-bold" href="https://www.techiediaries.com/react-bootstrap">
+              <NavLink className="font-weight-bold" href="/transportation">
                 Transportation
             </NavLink>
             </NavItem>
             <NavItem className="d-flex align-items-center">
-              <NavLink className="font-weight-bold" href="https://www.techiediaries.com/react-bootstrap">
+              <NavLink className="font-weight-bold" href="/faq">
                 FAQ
           </NavLink>
             </NavItem>
-
-
           </Nav>
         </Navbar>
       </Fragment>

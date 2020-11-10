@@ -14,12 +14,12 @@ class Footer extends Component {
                 <tbody>
                   <tr>
                     <td>
-                    <a href="/">
+                    <a href="/adventure">
                     <h4>Adventure</h4>
                     </a>
                     </td>
                     <td>
-                    <a href="/">
+                    <a href="/cuisine">
                       <h4>Cuisine</h4>
                       </a>
                     </td>
@@ -31,12 +31,12 @@ class Footer extends Component {
                   </tr>
                   <tr>
                     <td>
-                    <a href="/">
+                    <a href="/culture">
                       <h4>Culture</h4>
                       </a>
                     </td>
                     <td>
-                    <a href="/">
+                    <a href="/lodging">
                       <h4>Lodging</h4>
                       </a>
                     </td>
@@ -44,11 +44,11 @@ class Footer extends Component {
                   </tr>
                   <tr>
                     <td>
-                    <a href="/">
+                    <a href="/transportation">
                       <h4>Transportation</h4></a>
                     </td>
                     <td>
-                    <a href="/">
+                    <a href="/faq">
                       <h4>FAQ</h4>
                       </a>
                     </td>

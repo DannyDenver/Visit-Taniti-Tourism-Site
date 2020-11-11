@@ -8,7 +8,12 @@ export default function HomePage(props) {
   return (
     <Fragment>
       <MainImage flipImage={true} imageSrc={beachShot} imageTitle={"Welcome to Taniti!"} imageSubtitle={"Live on the Wild Side"} />
-      <LgImageWithText title={"Island Wedding Venues"} imageSrc={"https://www.royal-hawaiian.com/wp-content/uploads/sites/16/2017/10/lux376mf-191808-royal-hawaiian-hotel-meetings-Coconut-Grove-Function-Med.jpg"}></LgImageWithText>
+      <div className="container p-5 mb-3">
+      <LgImageWithText
+        title={"Island Wedding Venues"}
+        imageSrc={"https://www.royal-hawaiian.com/wp-content/uploads/sites/16/2017/10/lux376mf-191808-royal-hawaiian-hotel-meetings-Coconut-Grove-Function-Med.jpg"}>
+      </LgImageWithText>
+      </div>
 
       <ThreeImages
         imageOne={"https://media.tacdn.com/media/attractions-splice-spp-674x446/06/ea/c1/f0.jpg"}

@@ -16,8 +16,7 @@ class Header extends Component {
       <div className="d-flex ml-3">84° ☀️</div>
 
     </div>
-
-        <Navbar className="navbar navbar-light bg-light main-nav pt-6 align-items-center" color="faded" light expand="md">
+        <Navbar className="navbar sticky-top navbar-light bg-light main-nav align-items-center" color="faded" light expand="md">
           <NavbarBrand className="navbar-brand font-weight-bold" href="./">
               <img width="34" height="34" className="d-inline-block mr-2 ml-2" alt="logo" src={beachIcon} />
               Taniti
@@ -62,30 +61,3 @@ class Header extends Component {
 
 export default Header;
 
-
-
-// <Navbar className="navbar p-0 ml-1 mr-1 utility-nav" expand="md">
-// <Nav className="justify-center" navbar>
-// <NavItem className="d-flex align-items-center">
-// <NavLink className="mr-1" href="https://www.techiediaries.com/react-bootstrap">
-// Speak with a Booking Agent Today!
-// </NavLink>
-// </NavItem>
-//   <NavItem className="d-flex align-items-center">
-//     <NavLink className="mr-1" href="https://www.techiediaries.com/react-bootstrap">
-//     
-// </NavLink>
-//   </NavItem>
-// </Nav>
-// </Navbar>
-
-// <NavItem className="d-flex align-items-center">
-// <NavLink className="ml-1 mr-1" href="https://www.techiediaries.com/react-bootstrap">
-//   Transportation
-// </NavLink> |
-// </NavItem>
-// <NavItem className="d-flex align-items-center">
-// <NavLink className="ml-1" href="https://www.techiediaries.com/react-bootstrap">
-//   FAQ
-// </NavLink>
-// </NavItem>

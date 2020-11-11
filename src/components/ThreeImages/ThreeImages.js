@@ -4,8 +4,20 @@ import './ThreeImages.css'
 export default function ThreeImages(props) {
   return (
     <Fragment>
-      <div className="container pt-5 pb-5">
-        <div className="row m-6 pb-3">
+      <div className="container pt-3 pb-2">
+      { props.header ? 
+        <div className="row text-center">
+          <div className="col col-12 m-3">
+            <h1>{ props.header }</h1>
+            {
+              props.subheader ? 
+              <p>{props.subheader}</p> : null
+            }
+          </div>
+        </div> : null
+      }
+
+        <div className="row m-6 pb-3 text-center align-items-center">
           <div className="col col-md-4">
             <img className="rounded img-fluid section-image" src={props.imageOne} alt="dance contest"></img>
           </div>
@@ -18,16 +30,16 @@ export default function ThreeImages(props) {
         </div>
         <div className="row align-items-center">
           <div className="col col-md-4 text-center">
-            <h3>Adventure</h3>
+            <h3> { props.headerOne ? props.headerOne : 'Adventure' } </h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="col col-md-4 text-center">
-            <h3>Cuisine</h3> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3> { props.headerTwo ? props.headerTwo : 'Cuisine' } </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
           <div className="col col-md-4 text-center">
-            <h3>Explore</h3> 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h3> { props.headerThree ? props.headerThree : 'Explore' } </h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
       </div>

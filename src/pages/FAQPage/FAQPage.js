@@ -20,7 +20,7 @@ export default function FAQPage(props) {
 
 
       <div className="container mt-3 mb-3 pb-3">
-      <h1 className="text-center m-3">Frequently Asked Questions</h1>
+        <h1 className="text-center m-3">Frequently Asked Questions</h1>
         <div className="row justify-content-center">
           <div className="col-8">
             <div className="accordion" id="accordionExample">

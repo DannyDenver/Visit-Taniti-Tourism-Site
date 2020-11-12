@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import MainImage from '../../core/MainImage/MainImage';
 import LgImageWithText from '../../components/LgImageWithText/LgImageWithText'
+import './LodgingPage.css';
+
 
 export default function LodgingPage(props) {
 
@@ -21,6 +23,22 @@ export default function LodgingPage(props) {
     <Fragment>
       <MainImage mainText={mainImageTextStyle} flipImage={true}
        imageSrc={"https://www.tahiti.com/images1/gallery/Vahine-Island-Beach-Bungalow-2000x1200_29886.jpg"} imageTitle={"Lodging"} />
+
+       <div className="container mt-5 mb-3">
+       <div className="row justify-content-center">
+          <div className="col col-8 text-center">
+          <div className="btn-group" role="group" aria-label="Basic example">
+          <button type="button" className="btn btn-secondary active">All</button>
+          <button type="button" className="btn btn-secondary">Hostels</button>
+          <button type="button" className="btn btn-secondary">Four Star Hotel</button>
+          <button type="button" className="btn btn-secondary">Family Owned Hotels</button>
+          <button type="button" className="btn btn-secondary">Bed and Breakfasts</button>      
+          </div>
+
+          <div> ** All lodging is regulated by the Tanitian government to meet high standards. **</div>
+       </div>
+     </div>
+     </div>
       <LgImageWithText title={"Aloha! Welcome to our Island!"} description={aboutTaniti} imageSrc={"https://gotowncrier.com/wp-content/uploads/2019/10/Luau-Cov.jpg"}></LgImageWithText>
     </Fragment>
   )

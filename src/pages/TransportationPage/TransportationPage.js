@@ -25,8 +25,8 @@ export default function TransportationPage(props) {
 
       <TwoImages
         header={'Arrival'}
-        imageOne={"https://www.gohawaii.com/sites/default/files/styles/double_column_large/public/content-images/01268%20-%20luana%20hills%20%233a_B%205404_0.jpg?itok=HIcVHj4H"}
-        imageTwo={"https://www.ancient-origins.net/sites/default/files/field/image/Polynesians-Really-Come-From.jpg"}
+        imageOne={"https://www.anywhere.com/img-a/destination/sjo-airport-alajuela-costa-rica/3-016.JPG/-/h=300&q=50"}
+        imageTwo={"https://3h1v901r1l3q1atu5u3fomnk-wpengine.netdna-ssl.com/wp-content/uploads/2013/05/tahiti-7506421.jpg"}
         headerOne={'Taniti Airport'}
         headerTwo={'Port Yellow Leaf Bay'}>
       </TwoImages>

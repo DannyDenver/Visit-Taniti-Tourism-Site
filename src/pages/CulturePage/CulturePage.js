@@ -20,7 +20,9 @@ export default function CulturePage(props) {
   return (
     <Fragment>
       <MainImage mainText={mainImageTextStyle} imageSrc={"https://tahititourisme.com/wp-content/uploads/2017/05/tahiti-mana@2x.jpg"} imageTitle={"Culture"} />
-      <LgImageWithText title={"Aloha! Welcome to our Island!"} description={aboutTaniti} imageSrc={"https://gotowncrier.com/wp-content/uploads/2019/10/Luau-Cov.jpg"}></LgImageWithText>
+      <div className="container p-5 mb-3">
+        <LgImageWithText title={"Aloha! Welcome to our Island!"} description={aboutTaniti} imageSrc={"https://gotowncrier.com/wp-content/uploads/2019/10/Luau-Cov.jpg"}></LgImageWithText>
+      </div>
     </Fragment>
   )
 }

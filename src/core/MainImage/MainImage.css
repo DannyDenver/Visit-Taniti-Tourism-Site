@@ -32,6 +32,12 @@
   transform: translate(-50%, -50%);
 }
 
+@media only screen and (max-width: 770px) {
+  .main-image-subtitle  {
+    top: 40%;  
+  }
+}
+
 .flip {
   transform: scaleX(-1);
 }

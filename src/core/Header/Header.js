@@ -16,7 +16,7 @@ class Header extends Component {
           <div className="d-flex ml-3">84° ☀️</div>
 
         </div>
-        <nav className="navbar navbar-expand-xl  navbar-light bg-light main-nav align-items-center">
+        <nav className="navbar sticky-top navbar-expand-xl  navbar-light bg-light main-nav align-items-center">
           <a className="navbar-brand font-weight-bold" href="./">
             <img width="34" height="34" className="d-inline-block mr-2 ml-2" alt="logo" src={beachIcon} />
             Taniti

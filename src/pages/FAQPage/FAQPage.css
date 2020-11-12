@@ -1,0 +1,12 @@
+.accordion > .card > .card-header {
+    background-color: #2881a4 !important
+}
+
+button.btn-link {
+    color: white;
+}
+
+button.btn-link:hover {
+    color: white;
+    text-decoration: underline #69F2E2;
+}

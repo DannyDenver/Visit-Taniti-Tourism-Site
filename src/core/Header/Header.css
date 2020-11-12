@@ -14,6 +14,7 @@ nav.navbar {
     padding:0rem 1rem;
     background-color:#247494 !important;
     opacity: .9;
+    /* margin-top: 24px; */
 }
 
 .utility-bar {
@@ -27,7 +28,7 @@ nav.navbar {
 
   .utility-bar a {
     cursor: grab;
-      color: #ec008c !important;
+    color: #ec008c !important;
   }
 
   .navbar-light .navbar-nav .nav-link:hover,

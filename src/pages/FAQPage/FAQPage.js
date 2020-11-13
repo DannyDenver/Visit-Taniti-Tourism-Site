@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import MainImage from '../../core/MainImage/MainImage';
 import "./FAQPage.css";
-export default function FAQPage(props) {
 
+
+export default function FAQPage(props) {
   const mainImageTextStyle = {
     top: '21%',
     left: '73%',

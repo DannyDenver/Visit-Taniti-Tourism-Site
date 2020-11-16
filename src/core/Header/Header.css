@@ -37,3 +37,7 @@ nav.navbar {
     text-decoration: underline #69F2E2;
     cursor: pointer;
   }
+
+  .underlined {
+    text-decoration: underline;
+  }

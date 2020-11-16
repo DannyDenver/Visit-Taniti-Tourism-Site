@@ -27,6 +27,7 @@ export default function CuisinePage(props) {
         headerOne={'Tuna Bar'}
         headerTwo={'La Dolce Tahini'}
         headerThree={'Royal Kiikiriri'}
+        linkText={"Reserve a Table Now ->"}
       >
       </ThreeImages>
       <ThreeImages header={'American'}
@@ -36,6 +37,7 @@ export default function CuisinePage(props) {
         headerOne={'Teds Montana Grill'}
         headerTwo={'Steubens'}
         headerThree={'Sassafrass Eatery'}
+        linkText={"Reserve a Table Now ->"}
 
       >
       </ThreeImages>
@@ -46,6 +48,7 @@ export default function CuisinePage(props) {
         headerOne={'Bento Box'}
         headerTwo={'Banana Tree'}
         headerThree={"Kenny's Pan Asian Cuisine"}
+        linkText={"Reserve a Table Now ->"}
       >
       </ThreeImages>
     </Fragment>

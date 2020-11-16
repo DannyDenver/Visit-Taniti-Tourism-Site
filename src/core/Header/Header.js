@@ -8,6 +8,14 @@ import beachIcon from '../../assets/beach.svg'
 import './Header.css'
 
 class Header extends Component {
+  
+  isSelected(title) {
+    if(window.location.href.indexOf(title) > -1) {
+      return 'underlined'
+    }
+  }
+
+
   render() {
     return (
       <Fragment>
@@ -27,22 +35,22 @@ class Header extends Component {
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="/culture">Culture</a>
+                <a className={"nav-link " + this.isSelected('culture') } href="/culture">Culture</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/adventure">Adventure</a>
+                <a className={"nav-link " + this.isSelected('adventure') } href="/adventure">Adventure</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/cuisine">Cuisine</a>
+                <a className={"nav-link " + this.isSelected('cuisine') } href="/cuisine">Cuisine</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/lodging">Lodging</a>
+                <a className={"nav-link " + this.isSelected('lodging') } href="/lodging">Lodging</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/transportation">Transportation</a>
+                <a className={"nav-link " + this.isSelected('transportation') } href="/transportation">Transportation</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/faq">FAQ</a>
+                <a className={"nav-link " + this.isSelected('faq') } href="/faq">FAQ</a>
               </li>
             </ul>
           </div>

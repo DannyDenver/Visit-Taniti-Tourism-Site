@@ -59,7 +59,8 @@ export default function TransportationPage(props) {
           headerOne={'Public Cycle Rental'}
           headerTwo={"Moana's Bikes"}
           headerThree={"Kip's Bikes"}
-          
+          linkText={"Reserve a Bike Now ->"}
+
           >
         </ThreeImages>
       </div>

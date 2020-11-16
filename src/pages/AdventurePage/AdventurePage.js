@@ -44,6 +44,7 @@ export default function AdventurePage(props) {
         headerOne={'Rainforest Hike'}
         headerTwo={'Volcano Tours'}
         headerThree={'Helicopter Rides'}
+        linkText={"Book Now ->"}
         >
       </ThreeImages>
 

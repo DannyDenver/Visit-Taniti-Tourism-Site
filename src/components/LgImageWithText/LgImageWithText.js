@@ -12,11 +12,12 @@ export default function LgImageWithText(props) {
         <div className="col col-sm-6 align-self-center">
           <h2>{props.title}</h2>
           <p>
+            { props.subTitle ?  <div>{props.subTitle}</div> : null }
             {
               props.description ? props.description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
             }
           </p>
-          <a href="/">Learn More -> </a>
+          <a href="/">{ props.linkText ? props.linkText : "Learn More ->" } </a>
         </div>
       </div>
   )

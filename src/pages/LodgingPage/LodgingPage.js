@@ -6,9 +6,9 @@ import Lodge from '../../models/Lodge'
 
 const lodgeTypes = {
   Luxury: "Luxury",
-  BedandBreakfast: "BedandBreakfast",
+  BedandBreakfast: "Bed and Breakfast",
   Hostel: "Hostel",
-  FamilyHotels: "FamilyHotel"
+  FamilyHotels: "Family Hotel"
 };
 
 export default function LodgingPage(props) {
@@ -16,12 +16,23 @@ export default function LodgingPage(props) {
 
   const lodges = [
     new Lodge("Four Seasons Luxury Resort", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37242591.webp?k=deb4d765a564823150f4758a47637a266cc0e43c35acd408a83527c05781e495&o=", null, lodgeTypes.Luxury),
+
     new Lodge("Boby's", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/37/c6/6e/breakfast-on-your-patio.jpg?w=400&h=300&s=1", null, lodgeTypes.BedandBreakfast),
     new Lodge("Orchid Tree Bed and Breakfast", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/bb/30/41/belle-vue-kona-b-b.jpg?w=400&h=300&s=1", null, lodgeTypes.BedandBreakfast),
     new Lodge("Lilikoi Inn", "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/09/f4/b9/photo1jpg.jpg?w=400&h=400&s=1", null, lodgeTypes.BedandBreakfast),
     new Lodge("Hale 'Ohu Bed & Breakfast", "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/9a/a1/f5/old-hawaiian.jpg?w=300&h=300&s=1", null, lodgeTypes.BedandBreakfast),
+
+    new Lodge("Bamboo Travelers", "https://pix.easytahiti.com/hotels/FARE-MAEVA-HUAHINE-BNB-12.webp", null, lodgeTypes.Hostel),
+    new Lodge("Gecko's Resort", "https://pix.easytahiti.com/hotels/FARE-MAEVA-HUAHINE-BNB-09.webp", null, lodgeTypes.Hostel),
+    new Lodge("Horizon Backpackers & Travel Centre", "https://pix.easytahiti.com/hotels/FARE-MAEVA-HUAHINE-BNB-06.webp", null, lodgeTypes.Hostel),
+
+    new Lodge("Manu's", "https://pix.easytahiti.com/hotels/CHEZ-NONO-BNB-BORA-BORA-02.webp", null, lodgeTypes.FamilyHotels),
+    new Lodge("Chez Nono", "https://pix.easytahiti.com/hotels/PENSION-FARE-AUTE-MOOREA-BNB-POLYNESIE-005.webp", null, lodgeTypes.FamilyHotels),
+    new Lodge("Fare Aute", "https://pix.easytahiti.com/hotels/FARE-MAEVA-HUAHINE-BNB-23.webp", null, lodgeTypes.FamilyHotels),
+    new Lodge("Fare Maeve", "https://pix.easytahiti.com/hotels/FARE-MAEVA-HUAHINE-BNB-04.webp", null, lodgeTypes.FamilyHotels)
+
   ];
-  
+
   const mainImageTextStyle = {
     top: '21%',
     left: '73%',
@@ -56,7 +67,7 @@ export default function LodgingPage(props) {
       <div className="container">
         {
           lodges.filter(lodge => (lodge.type === selectedType || selectedType === 'All')).map((lodge) => {
-            return <LgImageWithText title={lodge.name} description={lodge.description} imageSrc={lodge.imageUrl}></LgImageWithText>
+            return <LgImageWithText title={lodge.name} subTitle={lodge.type} description={lodge.description} imageSrc={lodge.imageUrl} linkText={ "Book Now ->"}></LgImageWithText>
           })
         }
       </div>

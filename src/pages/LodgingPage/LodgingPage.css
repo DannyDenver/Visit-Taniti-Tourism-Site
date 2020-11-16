@@ -1,3 +1,9 @@
-.btn-group .btn-secondary {
+.btn-group .btn-secondary,.btn-group .btn-secondary:hover  {
+    opacity: .7;
     background-color: #17AAB5;
+}
+
+.btn-group .btn-secondary.active {
+    background-color: #247494 !important;
+    opacity: 1;
 }

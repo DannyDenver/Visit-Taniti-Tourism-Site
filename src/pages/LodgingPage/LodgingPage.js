@@ -12,7 +12,7 @@ const lodgeTypes = {
 };
 
 export default function LodgingPage(props) {
-  const [selectedType, setType] = useState(lodgeTypes.BedandBreakfast);
+  const [selectedType, setType] = useState('All');
 
   const lodges = [
     new Lodge("Four Seasons Luxury Resort", "https://cf.bstatic.com/xdata/images/hotel/max1024x768/37242591.webp?k=deb4d765a564823150f4758a47637a266cc0e43c35acd408a83527c05781e495&o=", null, lodgeTypes.Luxury),
@@ -53,8 +53,8 @@ export default function LodgingPage(props) {
           <div className="col col-8 text-center">
             <div className="btn-group" role="group" aria-label="Basic example">
               <button type="button" onClick={() => setType("All")} className={"btn btn-secondary " + (selectedType === 'All' ? "active" : null)}>All</button>
-              <button type="button" onClick={() => setType(lodgeTypes.Hostel)} className={"btn btn-secondary " + (selectedType === lodgeTypes.Hostel ? "active" : null)}>Hostels</button>
               <button type="button" onClick={() => setType(lodgeTypes.Luxury)} className={"btn btn-secondary " + (selectedType === lodgeTypes.Luxury ? "active" : null)}>Four Star Hotel</button>
+              <button type="button" onClick={() => setType(lodgeTypes.Hostel)} className={"btn btn-secondary " + (selectedType === lodgeTypes.Hostel ? "active" : null)}>Hostels</button>
               <button type="button" onClick={() => setType(lodgeTypes.FamilyHotels)} className={"btn btn-secondary " + (selectedType === lodgeTypes.FamilyHotels ? "active" : null)}>Family Owned Hotels</button>
               <button type="button" onClick={() => setType(lodgeTypes.BedandBreakfast)} className={"btn btn-secondary " + (selectedType === lodgeTypes.BedandBreakfast ? "active" : null)}>Bed and Breakfasts</button>
             </div>

@@ -40,7 +40,7 @@ class Footer extends Component {
                       <h4>Lodging</h4>
                       </a>
                     </td>
-                    <td>332-888-8888</td>
+                    <td><a href="tel:5555555555">332-888-8888</a></td>
                   </tr>
                   <tr>
                     <td>

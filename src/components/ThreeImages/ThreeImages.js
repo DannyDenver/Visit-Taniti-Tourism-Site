@@ -41,7 +41,7 @@ export default function ThreeImages(props) {
             </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />
               {
-                props.linkText ? <a href="/">{ props.linkText }</a> : null
+                props.linkText ? <a target="_blank" href={props.linkUrl}>{ props.linkText }</a> : null
               }
             </p>
           </div>
@@ -51,7 +51,7 @@ export default function ThreeImages(props) {
             </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
             {
-              props.linkText ? <a href="/">{ props.linkText }</a> : null
+              props.linkText ? <a target="_blank" href={props.linkUrl}>{ props.linkText }</a> : null
               }
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function ThreeImages(props) {
             </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br />
             {
-                props.linkText ?  <a href="/">{ props.linkText }</a> : null
+                props.linkText ?  <a target="_blank" href={props.linkUrl}>{ props.linkText }</a> : null
               }
             </p>
           </div>

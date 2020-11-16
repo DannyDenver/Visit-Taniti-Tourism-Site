@@ -67,7 +67,7 @@ export default function LodgingPage(props) {
       <div className="container">
         {
           lodges.filter(lodge => (lodge.type === selectedType || selectedType === 'All')).map((lodge) => {
-            return <LgImageWithText title={lodge.name} subTitle={lodge.type} description={lodge.description} imageSrc={lodge.imageUrl} linkText={ "Book Now ->"}></LgImageWithText>
+            return <LgImageWithText linkUrl={"https://www.kayak.com/hotels?hid=&location=Bamboo+Backpackers&citycode=46400&rooms=1&rating=0&checkin_date=null&checkout_date=null&travelers=1&adults=1&children=0&searchType=C&action=dohotels"} title={lodge.name} subTitle={lodge.type} description={lodge.description} imageSrc={lodge.imageUrl} linkText={ "Book Now ->"}></LgImageWithText>
           })
         }
       </div>

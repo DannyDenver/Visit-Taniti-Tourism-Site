@@ -45,6 +45,7 @@ export default function AdventurePage(props) {
         headerTwo={'Volcano Tours'}
         headerThree={'Helicopter Rides'}
         linkText={"Book Now ->"}
+        linkUrl={"https://www.tripadvisor.com/AttractionProductReview-g297566-d13857774-River_Tubing_Fiji-Lautoka_Viti_Levu.html"}
         >
       </ThreeImages>
 

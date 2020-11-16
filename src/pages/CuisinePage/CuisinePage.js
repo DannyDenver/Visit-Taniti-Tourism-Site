@@ -28,6 +28,7 @@ export default function CuisinePage(props) {
         headerTwo={'La Dolce Tahini'}
         headerThree={'Royal Kiikiriri'}
         linkText={"Reserve a Table Now ->"}
+        linkUrl={"https://www.opentable.com/r/bon-ami-denver"}
       >
       </ThreeImages>
       <ThreeImages header={'American'}
@@ -38,7 +39,7 @@ export default function CuisinePage(props) {
         headerTwo={'Steubens'}
         headerThree={'Sassafrass Eatery'}
         linkText={"Reserve a Table Now ->"}
-
+        linkUrl={"https://www.opentable.com/r/bon-ami-denver"}
       >
       </ThreeImages>
       <ThreeImages header={'Pan-Asian'}
@@ -49,6 +50,7 @@ export default function CuisinePage(props) {
         headerTwo={'Banana Tree'}
         headerThree={"Kenny's Pan Asian Cuisine"}
         linkText={"Reserve a Table Now ->"}
+        linkUrl={"https://www.opentable.com/r/bon-ami-denver"}
       >
       </ThreeImages>
     </Fragment>

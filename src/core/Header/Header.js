@@ -20,7 +20,7 @@ class Header extends Component {
     return (
       <Fragment>
         <div className="d-flex flex-row justify-content-center utility-bar">
-          <a className="d-flex">Speak with a Booking Agent Today! </a>
+          <a className="d-flex" href="tel:5555555555">Speak with a Booking Agent Today! </a>
           <div className="d-flex ml-3">84° ☀️</div>
 
         </div>
